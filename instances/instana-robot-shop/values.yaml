@@ -24,8 +24,8 @@ robot-shop:
     # Rather than explicitly specifying the key, you can "bring your own secret" creating it in
     # the namespace in which you deploy "robot-shop" and specify the name in the "keysSecret" field.
     # The secret you create must contain a field called 'key' which contains the value you'd set in `.eum.key`.
-    keysSecret:
-    url:
+    keysSecret: instana-eum-key
+    url: ""
   # Pod Security Policy
   psp:
     enabled: false
